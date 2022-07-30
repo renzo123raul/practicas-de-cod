@@ -1,0 +1,242 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("imagenes sol/sol/portada2.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+/* barra de navegación */
+#logosol {
+  display: flex;
+
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  left: auto;
+  top: auto;
+}
+#logosol:hover {
+  width: 300px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.boton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-item:hover {
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
+  );
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+
+  display: block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+#titulo {
+  text-align: center;
+  color: aquamarine;
+  text-shadow: black 5px 1px 4px;
+  margin: 15px;
+  font-size: 300%;
+  font-weight: 400;
+  padding: 8rem 0 0 0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+#sub-titulo {
+  display: flex;
+  color: blueviolet;
+  justify-content: center;
+  flex-direction: row;
+  margin: 30px;
+}
+.slider {
+  margin: auto;
+  width: 80%;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 4rem;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 2);
+}
+
+.slider ul {
+  display: flex;
+  padding: 0%;
+  width: 800%;
+  animation: cambio 20s infinite;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+.slider img {
+  width: 100%;
+}
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+
+  80% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.director {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 25px;
+  margin: 50px;
+  color: azure;
+  text-shadow: black 5px 1px 4px;
+}
+
+#director-francisco {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.director-article-francisco {
+  width: min-content;
+}
+
+.director-img-francisco {
+  margin-top: 0;
+  border-radius: 2rem;
+  margin: 30px;
+  float: left;
+}
+
+.director-p-francisco {
+  display: inline-block;
+  width: 200px;
+  position: relative;
+}
+
+#director-angelo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.director-article-angelo {
+  width: min-content;
+}
+
+.director-img-angelo {
+  display: flex;
+  border-radius: 2rem;
+  margin: 30px;
+  display: inline-block;
+}
+
+.director-p-angelo {
+  display: inline-block;
+  width: 200px;
+  position: relative;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footer-li {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.copyright {
+  display: inline-block;
+  flex-direction: row;
+}
+
+#historia {
+  text-align: center;
+  margin: 14px;
+}
