@@ -1,0 +1,15 @@
+body {
+  background: rgba(0, 0, 0, 0.2);
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.grid__container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "header"
+    "container__slider"
+    "container__director"
+    "container__footer";
+}

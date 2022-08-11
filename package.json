@@ -1,0 +1,23 @@
+{
+  "name": "root-acesdmn",
+  "version": "1.0.0",
+  "description": "migrando a sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/style.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzo123raul/practicas-de-cod.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzo123raul/practicas-de-cod/issues"
+  },
+  "homepage": "https://github.com/renzo123raul/practicas-de-cod#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

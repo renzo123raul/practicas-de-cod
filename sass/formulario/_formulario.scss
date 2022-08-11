@@ -1,0 +1,60 @@
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+.contactanos {
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+label {
+  color: turquoise;
+}
+
+#boton {
+  background: #31384a;
+  color: white;
+  padding: 20px;
+}
+
+/* mapa */
+
+.section {
+  display: grid;
+  grid-template-columns: 1.5fr 0fr;
+}
+
+.section__ubicación {
+  display: grid;
+  margin: 20px;
+}
+
+.section__ubicación p {
+  color: black;
+  font-size: 20px;
+}
