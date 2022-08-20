@@ -31,9 +31,9 @@
       "header  "
       " container__footer "
       " container__slider "
-      " container__director ";
+      " container__tarjeta ";
   }
-  .container__director section {
+  .container__tarjeta section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -41,6 +41,15 @@
     width: 100%;
     max-width: 1200px;
     height: 830px;
+  }
+  .container__tarjeta1 section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 1100px;
   }
 }
 

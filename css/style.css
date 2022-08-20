@@ -154,16 +154,16 @@ label {
   justify-content: center;
   margin: 54px; }
 
-.container__director section {
+.container__tarjeta section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   margin: auto;
   width: 100%;
   max-width: 1200px;
-  height: 430px; }
+  height: 388px; }
 
-.container__director .imagenes {
+.container__tarjeta .imagenes {
   width: 330px;
   height: 330px;
   border-radius: 8px;
@@ -174,15 +174,49 @@ label {
   background-color: transparent;
   transition: all 0.25s; }
 
-.container__director .imagenes:hover {
+.container__tarjeta .imagenes:hover {
   transform: translate(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
-.container__director .imagenes img {
+.container__tarjeta .imagenes img {
   width: 250px;
   height: 250px; }
 
-.container__director .imagenes p {
+.container__tarjeta .imagenes p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300; }
+
+/* AQUI INICIA LAS TARJETAS DE SERVICIOS */
+.container__tarjeta1 section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 388px; }
+
+.container__tarjeta1 .imagenes {
+  width: 330px;
+  height: 330px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  background-color: transparent;
+  transition: all 0.25s; }
+
+.container__tarjeta1 .imagenes:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.container__tarjeta1 .imagenes img {
+  width: 250px;
+  height: 250px; }
+
+.container__tarjeta1 .imagenes p {
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300; }
@@ -263,15 +297,23 @@ label {
 
 @media (max-width: 600px) {
   .grid__container {
-    grid-template-areas: "header  " " container__footer " " container__slider " " container__director "; }
-  .container__director section {
+    grid-template-areas: "header  " " container__footer " " container__slider " " container__tarjeta "; }
+  .container__tarjeta section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: auto;
     width: 100%;
     max-width: 1200px;
-    height: 830px; } }
+    height: 830px; }
+  .container__tarjeta1 section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 1100px; } }
 
 @keyframes cambio {
   0% {
@@ -302,3 +344,36 @@ label {
     margin-left: -600%; }
   100% {
     margin-left: -600%; } }
+
+/* aquí se ejecuta todo referente a la pestaña de historia */
+.historia__imagenes {
+  width: 90%;
+  height: 50%;
+  margin: 20px; }
+
+.parrafos {
+  margin: 32px;
+  display: flex;
+  justify-content: center; }
+
+.fietpo__imagenes {
+  width: 80%;
+  margin: 37px; }
+
+.article {
+  text-align: center; }
+
+.youtube {
+  width: 70%;
+  display: flex;
+  margin: auto; }
+
+.servicios__imagenes {
+  width: 50%;
+  height: 50%;
+  margin: 20px; }
+
+.servicios__titulo {
+  font-weight: 200;
+  margin: 12px;
+  text-align: center; }
